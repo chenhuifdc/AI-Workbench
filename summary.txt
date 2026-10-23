@@ -1,0 +1,29 @@
+﻿# ========================================================
+
+# GEMINI_API_KEY: Required for Gemini AI API calls.
+# AI Stu
+\# SCRM Workbench - Project Context
+
+
+
+\## Tech Stack
+
+\- El
+[{"a":"Ethereum Developer","p":"Imagine you are an experienc
+'use strict';
+/**
+ * index.js —— AI 流式调用的唯一对外入口
+ *
+ * 对外 API
+'use strict';
+/**
+ * main.js —— Electron 主进程
+ *
+ * 职责：
+ *   
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta chars
+{
+  "name": "Remix 金融AI业务中枢与侧边栏 (FinAI Hub \u0026 30-Seat Si

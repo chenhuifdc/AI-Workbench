@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #020617;
+  color: #f8fafc;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Sleek Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+
+/* ===== 全局置顶顶栏：所有全屏弹窗/子界面均从顶栏下方开始，顶栏始终可见 ===== */
+:root { --app-header-h: 3.25rem; }
+#app-global-header { position: fixed !important; top: 0; left: 0; right: 0; z-index: 1000 !important; }
+.fixed.inset-0:not(#app-global-header) { top: var(--app-header-h) !important; }
+.fixed.inset-0 [class*="max-h-[9"], .fixed.inset-0 [class*="max-h-[8"] { max-height: calc(100vh - var(--app-header-h) - 1.5rem) !important; }
+.fixed.inset-0 [class*="h-[9"][class*="vh]"], .fixed.inset-0 [class*="h-[8"][class*="vh]"] { height: calc(100vh - var(--app-header-h) - 1.5rem) !important; }
+
+
+/* ===== 设计层：焦点、选中、动效、代码卡片 ===== */
+:focus-visible { outline: 2px solid rgba(245, 158, 11, 0.6); outline-offset: 2px; border-radius: 6px; }
+button, [role="button"] { transition: background-color .15s ease, border-color .15s ease, color .15s ease, transform .1s ease, box-shadow .15s ease; }
+textarea, input { caret-color: #f59e0b; }
+
+@keyframes msg-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.msg-in { animation: msg-in .22s ease-out both; }
+
+.code-block { border: 1px solid rgba(51, 65, 85, .8); border-radius: .75rem; overflow: hidden; background: #0b1120; box-shadow: inset 0 1px 0 rgba(255,255,255,.03); }
+.code-block__bar { display: flex; align-items: center; justify-content: space-between; padding: .3rem .65rem; font: 600 10px/1.2 "JetBrains Mono", ui-monospace, monospace; color: #94a3b8; background: rgba(30, 41, 59, .7); border-bottom: 1px solid rgba(51, 65, 85, .7); text-transform: uppercase; letter-spacing: .04em; }
+.code-block__copy { display: inline-flex; align-items: center; gap: .25rem; padding: .15rem .45rem; border-radius: .4rem; color: #fbbf24; cursor: pointer; }
+.code-block__copy:hover { background: rgba(245, 158, 11, .15); color: #fde68a; }
+.code-block pre { margin: 0; padding: .65rem .8rem; overflow-x: auto; font: 400 11px/1.6 "JetBrains Mono", ui-monospace, monospace; color: #e2e8f0; }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }

@@ -1,0 +1,72 @@
+[
+  {
+    "rank": 1,
+    "score": 19.73,
+    "title": "Custom Poster and Wallpaper Design with Image Upload",
+    "prompt": "Act as an expert digital artist. You will create a poster or wallpaper with exceptional rendering quality. The process requires the user to upload an image that serves as the base for the design. Ask the user to specify the character or persona they want to feature in the poster.\n\nYou will:\n- Analyze the uploaded image for style and composition.\n- Render a poster or wallpaper incorporating the specified character.\n- Ensure the design is visually striking and high-resolution.\n\nRules:\n- The user m",
+    "keyword_matches": 7
+  },
+  {
+    "rank": 2,
+    "score": 18.0,
+    "title": "Ultra-photorealistic Infographics",
+    "prompt": "Ultra-photorealistic studio render of a ${object_name}, front three-quarter view, placed on a pure white seamless studio background.The car must look like a high-end automotive catalog photograph: physically accurate lighting, realistic global illumination, soft studio shadows under the tires, correct reflections on paint, glass, and chrome, sharp focus, natural perspective, true-to-life proportions, no stylization.\n\nOver the realistic car image, overlay hand-drawn technical annotation graphics ",
+    "keyword_matches": 11
+  },
+  {
+    "rank": 3,
+    "score": 18.0,
+    "title": "Typographic Portrait Artwork Creation",
+    "prompt": "Transform the provided portrait into a 9:16 vertical typographic artwork built exclusively from repeated name text.\n\nSTRICT RULES:\n- The image must be composed ONLY of text (e.g., \"MUSTAFA KEMAL ATATÜRK\").\n- No lines, no strokes, no outlines, no shapes, no shading, no gradients.\n- Do NOT draw anything. Do NOT use any brush or illustration effect.\n- No stamp borders or shapes — only pure text.\n- Every visible detail must come from the text itself.\n\nTEXT CONSTRAINT:\n- ALL text must be small and co",
+    "keyword_matches": 8
+  },
+  {
+    "rank": 4,
+    "score": 17.0,
+    "title": "Create Infographics",
+    "prompt": "explain the thinking fast and slow book\n\n{\n  \"style\": {\n    \"name\": \"Whiteboard Infographic\",\n    \"description\": \"Hand-illustrated educational infographic with a warm, approachable sketch aesthetic. Upload your content outline and receive a visually organized, sketchbook-style guide that feels hand-crafted yet professionally structured.\"\n  },\n  \"visual_foundation\": {\n    \"surface\": {\n      \"base\": \"Off-white to warm cream background\",\n      \"texture\": \"Subtle paper grain—not sterile, not digital",
+    "keyword_matches": 13
+  },
+  {
+    "rank": 5,
+    "score": 17.0,
+    "title": "Cinematic Ink & Color Illustration Generator — Gary Frank Style",
+    "prompt": "{\n  \"type\": \"illustration\",\n  \"goal\": \"Create a single wide cinematic illustration of a lone cowboy sitting on a wooden chair in front of an Old West saloon at dusk. Rendered with meticulous hand-inked linework over rich digitally-painted color. The technique combines bold black ink contour drawing with deep, layered, fully-rendered color work — the kind of dramatic realism found in high-end editorial illustration and graphic novel art.\",\n\n  \"work_surface\": {\n    \"type\": \"Single illustration, la",
+    "keyword_matches": 13
+  },
+  {
+    "rank": 6,
+    "score": 17.0,
+    "title": "Ultra Photorealistic Rooftop Pool Portrait",
+    "prompt": "{\n  \"pack_name\": \"BOLD - Rooftop Inferno / Golden Hour\",\n  \"intent\": \"Generate an ultra photorealistic, raw-candid iPhone-style rooftop pool portrait with dominant, confident energy and editorial polish, without looking staged or studio-lit.\",\n  \"content_safety\": {\n    \"age_requirement\": \"All subjects must be adults, 21+.\",\n    \"nudity_level\": \"Non-explicit. Swimwear only. No visible nipples, areola, or genitals. No sheer transparency that reveals explicit anatomy.\",\n    \"tone\": \"Confidence-forw",
+    "keyword_matches": 10
+  },
+  {
+    "rank": 7,
+    "score": 17.0,
+    "title": "Design App Store Style Icons",
+    "prompt": "Reconstruct the central object of the given 2D image as a true 3D wireframe model.\n\n- Interpret the 2D shape as volumetric geometry and extrude it into depth.\n\n- Build visible 3D structure with wireframe mesh lines wrapping around the form (front, sides, and curvature).\n\n- Use thin, precise, glowing white wireframe lines only, no solid surfaces, no flat fills.\n\n- Apple App Store style icon, premium iOS design language, WWDC-inspired.\n\n- Rounded square app icon, centered and symmetrical.\n\n- Soft ",
+    "keyword_matches": 10
+  },
+  {
+    "rank": 8,
+    "score": 17.0,
+    "title": "Mechanical Part Render to Technical Drawing Converter",
+    "prompt": "{\n  \"task\": \"image_to_image\",\n  \"description\": \"Convert a 3D mechanical part render into a fully dimensioned manufacturing drawing\",\n  \"input_image\": \"3d_render_of_pipe_or_mechanical_part.png\",\n  \"prompt\": \"mechanical engineering drawing, multi-view orthographic projection, front view, top view, side view and section view, fully dimensioned technical drawing, precise numeric measurements in millimeters, diameter symbols, radius annotations, hole count notation, center lines, section hatching, co",
+    "keyword_matches": 7
+  },
+  {
+    "rank": 9,
+    "score": 17.0,
+    "title": "3D Mechanical Part Image to Technical Drawing Conversion",
+    "prompt": "{\n  \"task\": \"image_to_image\",\n  \"input_image\": \"3d_render_of_mechanical_part.png\",\n  \"prompt\": \"Reference scale: the outer diameter of the flange is exactly 360 mm. Mechanical engineering drawing sheet with three separate drawings of the same part placed in clearly separated rectangular areas. Drawing 1: fully dimensioned orthographic views (front, top, side) with precise numeric measurements in millimeters, diameter symbols, radius annotations, hole count notation and center lines. Drawing 2: s",
+    "keyword_matches": 7
+  },
+  {
+    "rank": 10,
+    "score": 16.0,
+    "title": "Professional Artist Sketchbook Page",
+    "prompt": "Create a professional, high-end artist sketchbook page using the uploaded photo as the sole reference for the character. Preserve the exact facial features, identity, hairstyle, proportions, and overall recognizable likeness with exceptional accuracy. Depict the character in a refined pencil-and-ink illustration style with subtle, tasteful watercolor or marker accents, on a clean pure white background. The image should look clear, beautiful, polished, and professionally composed, with no ruled n",
+    "keyword_matches": 9
+  }
+]

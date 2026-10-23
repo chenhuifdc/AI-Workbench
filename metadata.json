@@ -1,0 +1,8 @@
+{
+  "name": "Remix 金融AI业务中枢与侧边栏 (FinAI Hub \u0026 30-Seat Sidebar)",
+  "description": "30人团队协同金融AI业务侧边栏与中央服务器管控中枢，基于纯CPU无独显32G内存优化，支持Ollama/ChromaDB本地检索与云端API智能分流，提供完整金融命令词库与极简客户端。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

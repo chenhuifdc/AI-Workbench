@@ -1,0 +1,38 @@
+# === Python 编译与虚拟环境 ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# === 操作系统与 IDE 缓存 ===
+.DS_Store
+Thmubs.db
+.vscode/
+.idea/
+*.log
+
+# === PyInstaller 打包产物 ===
+build/
+dist/
+*.spec
+
+# === 配置文件与敏感信息 ===
+.env
+!.env.example
+
+# === AI 专属：绝对不要上传的本地大模型/向量库数据 ===
+chroma_data/
+db/
+models/
+weights/
+*.safetensors
+*.bin
+*.gguf
+*.onnx
+*.pth
+node_modules/ 
+release/ 

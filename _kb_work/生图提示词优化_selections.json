@@ -1,0 +1,72 @@
+[
+  {
+    "rank": 1,
+    "score": 15.0,
+    "title": "3D Medical Anatomy Model Render Prompt",
+    "prompt": "{\n  \"fixed_prompt_components\": {\n    \"composition\": \"Wide angle full body shot, the entire figure is visible from head to toe, far shot, vertical portrait framing, centered and symmetrical stance\",\n    \"background\": \"Isolated on a seamless pure white background, studio backdrop, clean white environment\",\n    \"art_style\": \"Photorealistic 3D medical render, ZBrush digital sculpture style, scientific anatomy model aesthetics\",\n    \"texture_and_material\": \"Monochromatic silver-grey skin with brushed",
+    "keyword_matches": 8
+  },
+  {
+    "rank": 2,
+    "score": 14.0,
+    "title": "MODEL RED MIAU",
+    "prompt": "STYLE / AESTHETIC:\nHigh-fashion editorial, luxury commercial photography, hyperrealistic 3D render aesthetic, mythological afrofuturism, opulent dark fantasy, perfectly symmetrical composition.\nSUBJECT:\nANATOMY: 1girl, young woman, flawless symmetrical face, medium-dark skin tone, full lips, perfect hands with natural nails.\nSKIN: Glowing, heavily oiled and glossy skin, flawless texture, rich melanin, subtle subsurface scattering.\nHAIR: Hidden beneath helmet.\nCLOTHING: (Metallic gold ribbed shou",
+    "keyword_matches": 13
+  },
+  {
+    "rank": 3,
+    "score": 14.0,
+    "title": "Seinen Manga Masterpiece Transformation",
+    "prompt": "Transform the uploaded image into an ultra-detailed black and white seinen manga masterpiece while preserving the original subject with absolute accuracy.\n\nABSOLUTE PRIORITY:\nThe original person's identity must remain completely unchanged.\nPreserve 100% facial likeness.\nDo not redesign, reinterpret, beautify, stylize, idealize, age up, age down, or modify the face in any way.\nMaintain exact facial proportions, skull shape, jawline, cheekbones, nose shape, lip shape, eye shape, eyelid structure, ",
+    "keyword_matches": 10
+  },
+  {
+    "rank": 4,
+    "score": 14.0,
+    "title": "Cinematic Urban Night Portrait - Moody Streetwear Aesthetic",
+    "prompt": "{\n  \"scene_setup\": {\n    \"subject\": {\n      \"clothing\": \"wearing a black oversized hoodie, black backwards baseball cap, silver chain necklace\",\n      \"appearance\": \"male model, beard, intense serious gaze, masculine features\",\n      \"pose\": \"sitting or leaning forward, looking down at camera, authoritative stance\"\n    },\n    \"camera_angle\": {\n      \"type\": \"Low angle shot\",\n      \"focus\": \"Sharp focus on face, shallow depth of field (bokeh background)\",\n      \"framing\": \"Medium close-up portrai",
+    "keyword_matches": 8
+  },
+  {
+    "rank": 5,
+    "score": 14.0,
+    "title": "Cinematic Ultra-Realistic Image-to-Video Prompt Engineer",
+    "prompt": "{\n  \"name\": \"Cinematic Prompt Standard v2.0\",\n  \"type\": \"image_to_video_prompt_standard\",\n  \"version\": \"2.0\",\n  \"language\": \"ENGLISH_ONLY\",\n  \"role\": {\n    \"title\": \"Cinematic Ultra-Realistic Image-to-Video Prompt Engineer\",\n    \"description\": \"Transforms a single input image into one complete ultra-realistic cinematic video prompt.\"\n  },\n  \"main_rule\": {\n    \"trigger\": \"user_sends_image\",\n    \"instructions\": [\n      \"Analyze the image silently\",\n      \"Extract all visible details\",\n      \"Gener",
+    "keyword_matches": 7
+  },
+  {
+    "rank": 6,
+    "score": 14.0,
+    "title": "Cinematic Ink & Color Illustration Generator — Gary Frank Style",
+    "prompt": "{\n  \"type\": \"illustration\",\n  \"goal\": \"Create a single wide cinematic illustration of a lone cowboy sitting on a wooden chair in front of an Old West saloon at dusk. Rendered with meticulous hand-inked linework over rich digitally-painted color. The technique combines bold black ink contour drawing with deep, layered, fully-rendered color work — the kind of dramatic realism found in high-end editorial illustration and graphic novel art.\",\n\n  \"work_surface\": {\n    \"type\": \"Single illustration, la",
+    "keyword_matches": 7
+  },
+  {
+    "rank": 7,
+    "score": 13.0,
+    "title": "Visual Media Analysis Expert Agent Role",
+    "prompt": "# Visual Media Analysis Expert\n\nYou are a senior visual media analysis expert and specialist in cinematic forensics, narrative structure deconstruction, cinematographic technique identification, production design evaluation, editorial pacing analysis, sound design inference, and AI-assisted image prompt generation.\n\n## Task-Oriented Execution Model\n- Treat every requirement below as an explicit, trackable task.\n- Assign each task a stable ID (e.g., TASK-1.1) and use checklist items in outputs.\n-",
+    "keyword_matches": 12
+  },
+  {
+    "rank": 8,
+    "score": 13.0,
+    "title": "Pixar-Style Family Wallpaper Prompt",
+    "prompt": "Pixar-style, Disney-style, high quality 3D render, octane render, global illumination, subsurface scattering, ultra detailed, soft cinematic lighting, cute and warm mood.\n\nA happy family of three (father, mother, and their young daughter) reimagined as Pixar-style 3D characters, peeking playfully from behind a wall on the left side.\n\nThe father has medium-length slightly wavy brown hair, a short beard, and a warm friendly smile.  \nThe mother has long straight brown hair, a bright smile, soft fac",
+    "keyword_matches": 7
+  },
+  {
+    "rank": 9,
+    "score": 13.0,
+    "title": "Majestic Bald Eagle 3D Render Prompt",
+    "prompt": "{\n  \"subject\": {\n    \"description\": \"The head and upper neck of a bald eagle, looking upwards towards a light source.\",\n    \"count\": 1,\n    \"orientation\": \"profile, facing left, tilted steeply upward\",\n    \"pose_or_state\": \"static, neck extended and head looking up\",\n    \"expression\": \"majestic, neutral\"\n  },\n  \"scale_and_proportion\": {\n    \"subject_to_frame_ratio\": \"subject occupies approximately 40% of the frame, positioned in the center-right\",\n    \"proportions\": \"anatomically accurate eagle ",
+    "keyword_matches": 6
+  },
+  {
+    "rank": 10,
+    "score": 12.0,
+    "title": "Hyper-Realistic 3D Isometric Ottoman Masterpiece",
+    "prompt": "Generate a hyper-realistic 3D isometric masterpiece, set against a magnificent, endless traditional ink-wash Ottoman historical parchment scroll unfurling across the background.\n\nThe scene captures the legacy, strategic genius, and world-changing impact of ${name:Fatih Sultan Mehmet} during ${event:the Conquest of Constantinople (1453)}, visualized through symbolic imagery, military motion, and spiritual determination, emerging directly from the parchment itself.\n\nParchment Annotations (Content-",
+    "keyword_matches": 8
+  }
+]
